@@ -22,6 +22,32 @@ nav a {
   font-weight: 600;
 }
 
+#playerStats {
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+#playerStats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.statValue {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #003b9c;
+}
+
+.statLabel {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+
+
 #stage::after {
   content: "";
   position: absolute;
