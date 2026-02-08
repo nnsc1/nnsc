@@ -13,20 +13,6 @@ fetch("data/players.json")
   });
 
 function showPlayer(player) {
-  
-  const video = document.getElementById("playerVideo");
-  const headshot = document.getElementById("headshot");
-  document.getElementById("goals").textContent = player.goals;
-document.getElementById("assists").textContent = player.assists;
-document.getElementById("trophiesCount").textContent = player.trophies.length;
-
-// Animate stats
-gsap.from(".statValue", {
-  y: 10,
-  opacity: 0,
-  stagger: 0.15,
-  duration: 0.6
-});
 
 
   // Reset previous animations
@@ -61,6 +47,20 @@ gsap.from(".statValue", {
     delay: 2,
     duration: 1
   });
+
+    const video = document.getElementById("playerVideo");
+  const headshot = document.getElementById("headshot");
+  document.getElementById("goals").textContent = player.goals;
+document.getElementById("assists").textContent = player.assists;
+document.getElementById("trophiesCount").textContent = player.trophies.length;
+
+// Animate stats
+gsap.from(".statValue", {
+  y: 10,
+  opacity: 0,
+  stagger: 0.15,
+  duration: 0.6
+});
 
   // TEXT INFO
   document.getElementById("playerName").textContent = player.name;
