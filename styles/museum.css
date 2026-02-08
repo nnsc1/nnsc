@@ -1,8 +1,5 @@
 body {
-  margin: 0;
-  background: #f8fbff;
-  color: #0a1f44;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
 }
 
 header {
@@ -90,8 +87,8 @@ nav a {
 }
 
 #playerName {
-  font-size: 42px;
-  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.5px;
 }
 
 #playerMeta {
