@@ -1,0 +1,20 @@
+[
+  {
+    "name": "angelolee1919",
+    "position": "Goalkeeper",
+    "countries": ["PH", "CA"],
+    "joined": "Oct 2024",
+    "trophies": ["WC", "UCL", "UCL"],
+    "video": "media/videos/angelolee1919.mp4",
+    "headshot": "media/headshots/angelolee1919.png"
+  },
+  {
+    "name": "1300Melvin",
+    "position": "Attacker",
+    "countries": ["IR", "US"],
+    "joined": "Oct 2024",
+    "trophies": ["WC", "UCL", "UCL"],
+    "video": "media/videos/1300Melvin.mp4",
+    "headshot": "media/headshots/1300Melvin.png"
+  }
+]
