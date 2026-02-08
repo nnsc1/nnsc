@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #f8fbff;
+  font-family: Inter, sans-serif;
+}
+
+header {
+  padding: 20px 40px;
+  background: white;
+  border-bottom: 1px solid #dbe7ff;
+}
+
+#trophyHall {
+  display: flex;
+  gap: 40px;
+  padding: 60px;
+}
+
+.trophy {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
