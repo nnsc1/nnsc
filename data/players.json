@@ -1,19 +1,97 @@
 [
   {
     "name": "angelolee1919",
-    "position": "Goalkeeper",
-    "countries": [],
+    "countries": ["ph", "ca"],
     "joined": "Oct 2024",
-    "trophies": ["WC", "UCL", "UCL"],
+    "goals": 2,
+    "assists": 13,
+    "trophies": [
+      "World Cup (Aug 2025)",
+      "Champions League (Dec 2025)",
+      "Champions League (Jan 2026)"
+    ],
     "video": "media/videos/angelolee1919.mp4",
     "headshot": "media/headshots/angelolee1919.png"
   },
   {
-    "name": "1300Melvin",
-    "position": "Attacker",
-    "countries": [],
+    "name": "Tyranizard89",
+    "countries": ["ca"],
+    "joined": "Apr 2025",
+    "goals": 0,
+    "assists": 2,
+    "trophies": [
+      "World Cup (Aug 2025)",
+      "Champions League (Dec 2025)",
+      "Champions League (Jan 2026)"
+    ],
+    "video": "media/videos/Tyranizard89.mp4",
+    "headshot": "media/headshots/Tyranizard89.png"
+  },
+  {
+    "name": "TG37074",
+    "countries": ["th"],
+    "joined": "Sept 2025",
+    "goals": 0,
+    "assists": 0,
+    "trophies": [
+      "Champions League (Dec 2025)",
+      "Champions League (Jan 2026)"
+    ],
+    "video": "media/videos/TG37074.mp4",
+    "headshot": "media/headshots/TG37074.png"
+  },
+  {
+    "name": "TETE7812",
+    "countries": ["ro"],
+    "joined": "Jan 2026",
+    "goals": 0,
+    "assists": 0,
+    "trophies": [],
+    "video": "media/videos/TETE7812.mp4",
+    "headshot": "media/headshots/TETE7812.png"
+  },
+
+  {
+    "name": "dvrianz",
+    "countries": ["hn", "us"],
     "joined": "Oct 2024",
-    "trophies": ["WC", "UCL", "UCL"],
+    "goals": 0,
+    "assists": 0,
+    "trophies": [
+      "World Cup (Aug 2025)",
+      "Champions League (Dec 2025)",
+      "Champions League (Jan 2026)"
+    ],
+    "video": "media/videos/dvrianz.mp4",
+    "headshot": "media/headshots/dvrianz.png"
+  },
+
+  {
+    "name": "JellozBenz",
+    "countries": ["iq", "se"],
+    "joined": "Oct 2024",
+    "goals": 8,
+    "assists": 7,
+    "trophies": [
+      "World Cup (Aug 2025)",
+      "Champions League (Dec 2025)",
+      "Champions League (Jan 2026)"
+    ],
+    "video": "media/videos/JellozBenz.mp4",
+    "headshot": "media/headshots/JellozBenz.png"
+  },
+
+  {
+    "name": "1300Melvin",
+    "countries": ["ir", "us"],
+    "joined": "Oct 2024",
+    "goals": 75,
+    "assists": 30,
+    "trophies": [
+      "World Cup (Aug 2025)",
+      "Champions League (Dec 2025)",
+      "Champions League (Jan 2026)"
+    ],
     "video": "media/videos/1300Melvin.mp4",
     "headshot": "media/headshots/1300Melvin.png"
   }
