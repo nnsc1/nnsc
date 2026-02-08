@@ -25,6 +25,19 @@ nav a {
   font-weight: 600;
 }
 
+#stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 59, 156, 0.15),
+    rgba(255, 255, 255, 0.2)
+  );
+  pointer-events: none;
+}
+
+
 #museum {
   display: flex;
   height: calc(100vh - 80px);
