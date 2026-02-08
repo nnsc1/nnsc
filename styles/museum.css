@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background: #f8fbff;
+  color: #0a1f44;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+  border-bottom: 1px solid #dbe7ff;
+}
+
+header h1 {
+  color: #003b9c;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #003b9c;
+  font-weight: 600;
+}
+
+#museum {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+#roster {
+  width: 320px;
+  background: white;
+  border-right: 1px solid #dbe7ff;
+  overflow-y: auto;
+}
+
+.player-item {
+  padding: 18px;
+  cursor: pointer;
+  border-bottom: 1px solid #eef3ff;
+  font-weight: 500;
+}
+
+.player-item:hover {
+  background: #eef4ff;
+}
+
+#stage {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #eaf2ff, #ffffff);
+}
+
+#playerVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+#headshot {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+}
+
+#overlay {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+}
+
+#playerName {
+  font-size: 42px;
+  margin: 0;
+}
+
+#playerMeta {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+#playerTrophies span {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #003b9c;
+}
